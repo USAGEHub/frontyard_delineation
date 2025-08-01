@@ -9,7 +9,7 @@ The goal is to split residential parcels into front and back yard polygons by id
 ## Methodology
 
 1. **Filter input data**: Use only residential parcels (pre-filtered in earlier steps).
-2. **Extract facade points** (_gevelpunten_) from building footprints.
+2. **Extract facade points** from building footprints.
 3. **Calculate shortest distance** from each facade point to the nearest road segment.
 4. **Select the two closest points** and export them.
 5. **Draw a connecting line** between the two selected points.
